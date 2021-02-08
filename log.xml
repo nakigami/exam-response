@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-02-08T12:36:55</date>
+  <millis>1612784215551</millis>
+  <sequence>0</sequence>
+  <logger>com.exam.designpatternexamen.models.aspectsAOP.LogAspect</logger>
+  <level>INFO</level>
+  <class>com.exam.designpatternexamen.models.aspectsAOP.LogAspect</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Before void com.exam.designpatternexamen.models.Params.ajouterFigure(Figure)</message>
+</record>
+<record>
+  <date>2021-02-08T12:36:55</date>
+  <millis>1612784215557</millis>
+  <sequence>1</sequence>
+  <logger>com.exam.designpatternexamen.models.aspectsAOP.LogAspect</logger>
+  <level>INFO</level>
+  <class>com.exam.designpatternexamen.models.aspectsAOP.LogAspect</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>After void com.exam.designpatternexamen.models.Params.ajouterFigure(Figure)</message>
+</record>
+<record>
+  <date>2021-02-08T12:36:55</date>
+  <millis>1612784215557</millis>
+  <sequence>2</sequence>
+  <logger>com.exam.designpatternexamen.models.aspectsAOP.LogAspect</logger>
+  <level>INFO</level>
+  <class>com.exam.designpatternexamen.models.aspectsAOP.LogAspect</class>
+  <method>log</method>
+  <thread>16</thread>
+  <message>Duration : 7ms</message>
+</record>
+</log>

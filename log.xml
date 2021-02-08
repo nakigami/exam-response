@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2021-02-08T12:36:55</date>
-  <millis>1612784215551</millis>
+  <date>2021-02-08T12:47:24</date>
+  <millis>1612784844448</millis>
   <sequence>0</sequence>
   <logger>com.exam.designpatternexamen.models.aspectsAOP.LogAspect</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Before void com.exam.designpatternexamen.models.Params.ajouterFigure(Figure)</message>
 </record>
 <record>
-  <date>2021-02-08T12:36:55</date>
-  <millis>1612784215557</millis>
+  <date>2021-02-08T12:47:24</date>
+  <millis>1612784844456</millis>
   <sequence>1</sequence>
   <logger>com.exam.designpatternexamen.models.aspectsAOP.LogAspect</logger>
   <level>INFO</level>
@@ -24,14 +24,14 @@
   <message>After void com.exam.designpatternexamen.models.Params.ajouterFigure(Figure)</message>
 </record>
 <record>
-  <date>2021-02-08T12:36:55</date>
-  <millis>1612784215557</millis>
+  <date>2021-02-08T12:47:24</date>
+  <millis>1612784844456</millis>
   <sequence>2</sequence>
   <logger>com.exam.designpatternexamen.models.aspectsAOP.LogAspect</logger>
   <level>INFO</level>
   <class>com.exam.designpatternexamen.models.aspectsAOP.LogAspect</class>
   <method>log</method>
   <thread>16</thread>
-  <message>Duration : 7ms</message>
+  <message>Duration : 9ms</message>
 </record>
 </log>

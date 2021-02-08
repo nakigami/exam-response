@@ -38,9 +38,11 @@ public class Circle extends Figure implements Serializable {
     @LoggerMessage
     @SecuredByAspect(roles = {"ADMIN"})
     public void update(Observable o) {
-        int cc = ((Params) o).getColorC();
-        int cs = ((Params) o).getColorS();
+        int CouleurContour= ((Params) o).getColorC();
+        int CouleurSurface = ((Params) o).getColorS();
         int epaisseur = ((Params) o).getEpaisseurC();
-        System.out.println("Color contour : " + cc + " Couleur surface : " + cs + " Epaisseur : " + epaisseur);
+        System.out.println("Color contour : " + CouleurContour +
+                " Couleur surface : " + CouleurSurface +
+                " Epaisseur : " + epaisseur);
     }
 }

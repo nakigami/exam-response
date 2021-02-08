@@ -46,11 +46,6 @@ public class FigureGroup extends Figure implements Serializable {
         }
     }
 
-    public void addFigure(Figure F)
-    {
-        this.figures.add(F);
-    }
-
     public void removeFigure(Figure F)
     {
         this.figures.remove(F);
@@ -62,4 +57,10 @@ public class FigureGroup extends Figure implements Serializable {
             f.update(o);
         }
     }
+
+    public void addFigure(Figure F)
+    {
+        this.figures.add(F);
+    }
+
 }
